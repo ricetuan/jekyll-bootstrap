@@ -3,6 +3,7 @@ require 'rake'
 require 'yaml'
 require 'time'
 
+Encoding.default_internal="utf-8"
 SOURCE = "."
 CONFIG = {
   'version' => "0.3.0",
