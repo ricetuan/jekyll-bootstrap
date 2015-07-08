@@ -7,7 +7,7 @@ title: ricetuan's Blogs!
 {% for post in site.posts %}
 ## {{ post.title }}
   {{ post.excerpt }}
-  <a href="{{ post.url }}">Read more...</a>
+  <a href="{{ BASE_PATH }}{{ post.url }}">Read more...</a>
 
   <div style="text-align: right;">
     {{ post.date | date_to_string }}
